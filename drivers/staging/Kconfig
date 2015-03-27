@@ -112,4 +112,6 @@ source "drivers/staging/most/Kconfig"
 
 source "drivers/staging/ccree/Kconfig"
 
+source "drivers/staging/frandom/Kconfig"
+
 endif # STAGING

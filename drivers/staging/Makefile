@@ -49,4 +49,3 @@ obj-$(CONFIG_WILC1000)		+= wilc1000/
 obj-$(CONFIG_MOST)		+= most/
 obj-$(CONFIG_CRYPTO_DEV_CCREE)	+= ccree/
 
-obj-$(CONFIG_FRANDOM)		+= frandom/

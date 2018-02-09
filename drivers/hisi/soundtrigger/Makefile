@@ -1,6 +1,7 @@
 # hifi dsp device driver
 subdir-ccflags-y += -Wall -Werror
 
+ccflags-y    += $(call cc-option,-Wno-error=memset-elt-size)
 EXTRA_CFLAGS += -Idrivers/hisi/slimbus
 EXTRA_CFLAGS += -Idrivers/hisi/hifi_dsp
 EXTRA_CFLAGS +=	-Iinclude/linux/hisi/hi64xx/

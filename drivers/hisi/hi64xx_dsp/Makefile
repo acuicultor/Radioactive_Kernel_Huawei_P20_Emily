@@ -1,7 +1,7 @@
 # hi6402 dsp device driver
 subdir-ccflags-y += -Wall -Werror
 
-ccflags-y += -Idrivers/devkit/audiokit/
+ccflags-y += -Idrivers/devkit/audiokit/ $(call cc-option,-Wno-error=format-truncation)
 EXTRA_CFLAGS += -Idrivers/hisi/slimbus/
 EXTRA_CFLAGS += -Idrivers/hisi/hifi_dsp/
 EXTRA_CFLAGS += -Iinclude/linux/hisi/

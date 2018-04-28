@@ -105,7 +105,7 @@
 
 		big0:cpu@100 {
 			device_type = "cpu";
-			compatible = "arm,armv8";
+			compatible = "arm,cortex-a73", "arm,armv8";
 			reg = <0x0 0x100>;
 			clocks = <&clk_cluster1 0>;
 			clock-names = "cpu-cluster.1";
@@ -131,7 +131,7 @@
 		};
 		big1:cpu@101 {
 			device_type = "cpu";
-			compatible = "arm,armv8";
+			compatible = "arm,cortex-a73", "arm,armv8";
 			reg = <0x0 0x101>;
 			clocks = <&clk_cluster1 0>;
 			clock-names = "cpu-cluster.1";
@@ -157,7 +157,7 @@
 		};
 		big2:cpu@102 {
 			device_type = "cpu";
-			compatible = "arm,armv8";
+			compatible = "arm,cortex-a73", "arm,armv8";
 			reg = <0x0 0x102>;
 			clocks = <&clk_cluster1 0>;
 			clock-names = "cpu-cluster.1";
@@ -183,7 +183,7 @@
 		};
 		big3:cpu@103 {
 			device_type = "cpu";
-			compatible = "arm,armv8";
+			compatible = "arm,cortex-a73", "arm,armv8";
 			reg = <0x0 0x103>;
 			clocks = <&clk_cluster1 0>;
 			clock-names = "cpu-cluster.1";

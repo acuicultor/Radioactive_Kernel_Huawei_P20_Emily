@@ -1,4 +1,4 @@
-HI1102_DRIVER_BUILTIN_PATH ?= drivers/connectivity/hisi
+HI1102_DRIVER_BUILTIN_PATH ?= $(subst ",,$(CONFIG_HI110X_DRIVER_PATH))
 DRIVER_FLODER = platform
 
 export _PRE_PRODUCT_VERSION  ?= 1102
